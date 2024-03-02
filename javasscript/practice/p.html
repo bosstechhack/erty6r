@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <div ><h1 id="one">Student Record</h1></div>
+    <table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>s1</th>
+            <th>s2</th>
+            <th colspan="2">s3</th>
+            
+            <th>Total</th>
+
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td><input id="11" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="12" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="13" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="14" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td><input id="15" type="number" min="0" max="330" ></td>
+            
+        </tr>
+        <tr>
+            <td>English</td>
+            <td><input id="21" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="22" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="23" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="24" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td><input id="25" type="number" min="0" max="330" ></td>
+            
+        </tr>
+        <tr>
+            <td>Electronics</td>
+            <td><input id="31" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="32" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="33" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="34" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td><input id="35" type="number" min="0" max="330" ></td>
+            
+        </tr>
+        <tr>
+            <td>IT</td>
+            <td><input id="41" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="42" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="43" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="44" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td><input id="45" type="number" min="0" max="330" ></td>
+            
+        </tr>
+        <tr>
+            <td>cp</td>
+            <td><input id="51" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="52" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="53" type="number" min="0" max="100" onchange="calculate()"></td>
+            <td><input id="54" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td><input id="55" type="number" min="0" max="330" ></td>
+            
+        </tr>
+    </table>
+    <br>
+    <div><input id="two" onclick="submit()" type="button" value="submit" name="submit1"></div>
+    <br>
+    <div id="set"><div>Average:<input id="61"  type="number" name="average1"></div>
+         <div>Total: <input id="62"  type="number" name="total"></div>
+        <div>No Of Student pass: <input id="pass" type="number"></div>
+        </div>
+
+    <script src="p.js"></script>
+    
+</body>
+</html>

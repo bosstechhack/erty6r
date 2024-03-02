@@ -1,0 +1,19 @@
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+   }
+   #links {
+    float: left;
+    width: 22.5%;
+    margin: 0 0 0 2.5%;
+   }
+   #main {
+    float: left;
+    width: 45%;
+    margin: 0 2.5%;
+   }
+   #news {
+    float: left;
+    width: 22.5%;
+    margin: 0 2.5% 0 0;
+   }

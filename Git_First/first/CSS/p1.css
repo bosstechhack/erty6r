@@ -1,0 +1,13 @@
+#box{
+   background-color: blue;
+   color:white; 
+}
+h1,h2,h3{
+    color:#ff0000; 
+}
+button{
+    background-color:#00ff00;
+}
+p{
+    text-align:left ;
+}

@@ -1,0 +1,75 @@
+*{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin: auto;
+    
+}
+#pass{
+    float: inline-end;
+}
+#tag{
+    padding-top: 10px;
+margin-right: 35%;
+float:inline-end;
+}
+#cer{
+    float: inline-start;  
+    padding-right: 150px;
+    font-size: large;
+}
+#reg{
+    
+    text-align: center;
+    float: inline-end;
+    font-size: large;
+    
+}
+#one{
+    background-color: rgb(116, 246, 116);
+}
+#head{
+    
+    text-decoration: underline;
+    font-style: oblique;
+    
+}
+table,tr,td,th{
+    
+    border: 1px solid black;
+   border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    
+}
+#submit-el{
+    border: 1px sold blue;
+    border-radius: 10px;
+    background:lightblue;
+    margin-right: 50px;
+    float: inline-end;
+    padding: 10px;
+}
+#avg{
+    font-weight: bold;
+    float: inline-end;
+    padding-right: 150px;
+    
+    
+   
+}
+#total{
+    font-weight: bold;
+    float: inline-start;
+    padding-left: 100px;
+}
+body{
+    
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 80px;
+margin-right: 80px;
+}
+
+
+

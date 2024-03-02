@@ -1,0 +1,134 @@
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+#h1{
+   font-weight: lighter;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #ffffff;
+    font-size: 15px ;
+    border-right: 1px solid #b1b1b1;
+    
+}
+#jee{
+    margin: 0%;
+}
+.home{
+    
+    height: 40px;
+    background-color:rgb(2,2,55);
+}
+.text{
+    text-align: center;
+}
+#ses{
+    margin: 20px;
+    color: #808080;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fa-solid{
+
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.body{
+    background-color:#D3D3D3;
+    display: flex;
+    color: white;
+
+}
+
+.right{
+    display: inline-table;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    width: 38%;
+
+    height: 450px;
+    background-image: url(bg.png);
+    border-radius: 20px 0px 0px 20px;
+    background-size: cover;
+    
+}
+
+#p1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+.form{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.tag{
+    margin-left: 20px;
+    opacity: 0.6;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 40px;
+}
+.new{
+    font-size: large;
+    border-radius: 8px;
+    background-color:#df6900 ;
+    color:white ;
+    height:50px;
+    width: 300px;
+    cursor:pointer;
+    margin-top: 20px;
+    
+
+}
+.left{
+    
+    display: inline-table;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 0px 20px 20px 0px;
+    color:black;
+    width:45%;
+    height:450px;
+    background-color: white;
+}
+
+.table{
+   
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+}
+.input{
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 25px;
+    
+}
+#fit{
+    height: 380px;
+    margin: 10px;
+    border:2px solid #b1b1b1;
+    border-radius: 10px;
+
+}
+#sin{
+    background-color: #df6900;
+    color:white;
+    border-radius: 5px;
+    border-color: #df6900;
+    font-size: large;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.title_imgae{
+    
+    position: relative;
+    top: -20px;
+    left: 40px;
+}

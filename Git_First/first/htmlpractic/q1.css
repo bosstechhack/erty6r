@@ -1,0 +1,39 @@
+h1,h2,h3,h4,em{border: 1px solid red;}
+
+
+p{ text-indent: em;
+    
+    padding:15px;
+    background-color: #fff799;
+    border: 2px solid #6c4788
+}
+em{
+    position: relative;
+   
+    background-color:fuchsia;
+}
+body{
+    background-image:    ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#wrapper {
+ width: 960px;
+ margin: 0 auto;
+}
+#links {
+ float: left;
+ width: 22.5%;
+ margin: 0 0 0 2.5%;
+}
+#main {
+ float: left;
+ width: 45%;
+ margin: 0 2.5%;
+}
+#news {
+ float: left;
+ width: 22.5%;
+ margin: 0 2.5% 0 0;
+}

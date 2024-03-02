@@ -1,0 +1,38 @@
+h1 {
+    color: goldenrod;
+    font-size: 35px;
+}
+#message-el {
+
+    font-style: italic;
+}
+body {
+   
+    padding-top: 100px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   background-image: url("OIP.jpeg");
+   text-align: center;
+   background-size: cover;
+   color: white;
+   font-weight: bold;
+
+
+}
+p{
+    font-weight: bolder;
+    color:palegoldenrod;
+}
+button { 
+font-size: 15px;
+    margin: 30px;
+    text-decoration-color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    
+    
+}

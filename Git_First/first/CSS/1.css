@@ -1,0 +1,17 @@
+div{
+    background-color: pink;
+    width:200px;
+    height:200px;
+    text-align: center;
+    margin:25px;
+    padding:25px;
+    display: inline-block;
+    
+}
+#one{
+background-color: rgb(122, 214, 24);
+}
+#two{
+    background-color:violet;
+    visibility: hidden;
+    }

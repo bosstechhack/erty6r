@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="it.css">
+</head>
+<header>
+    <img id="logo" src="logo.jpeg" width="250px" height="100px" >
+    <div id="tag"><h1>IIIT KOTTAYAM</h1>
+        <h3>Valavoor, Pala, Kottayam, Kerala</h3>
+    </div>
+
+</header>
+<br>
+<br>
+<body >
+    <Div id="cer">Certificate No: 20023/1001/A</Div>
+    <Div id="reg">Register No:2020BCS195</Div>
+    <br>
+    <div id="head"><h2>Student Marks Memo</h2></div><br><br><br>
+    <div id="pass"><img src="pass.jpg"width=120px height="120px">  </div>
+    <div id="mark">This mark sheet is awarded to: <input type="text" >   </div><br>
+    <div>On successful completion of course:  <input type="text"></div><br>
+    <div>On Duration: <input type="text"></div><br>
+    <div>From Our Authurization Training Center: <input type="text"></div><br>
+    
+    <table id="table">
+        
+        <tr id="one"><th><h3>S.No</h3></th>
+            <th >Subject Offered</th>
+            <th colspan="3">Full Marks</th>
+            <th colspan="3">Marks Obtained</th>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Theory</td>
+            <td>Lab</td>
+            <td>Total</td>
+            <td>Theory</td>
+            <td>Lab</td>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td>CS1</td>
+            <td>C</td>
+            <td>70</td>
+            <td>30</td>
+            <td>100</td>
+            <td ><input id="11" type="number" min="0" max="70"    onchange="calculate();" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"></td>
+            <td ><input id="12"  type="number" min="0" max="30"onchange="calculate();" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"></td>
+            <td ><input id="13" type="number" min="0" max="100" ></td>
+        </tr>
+        <tr>
+            <td>CS2</td>
+            <td>C++</td>
+            <td>70</td>
+            <td>30</td>
+            <td>100</td>
+            <td ><input id="21" type="number" min="0" max="70"     onchange="calculate()"></td>
+            <td ><input id="22"type="number" min="0" max="30"  onchange="calculate()"></td>
+            <td ><input id="23" type="number" min="0" max="100"    ></td>
+        </tr>
+        <tr>
+            <td>CS3</td>
+            <td>Java</td>
+            <td>70</td>
+            <td>30</td>
+            <td>100</td>
+            <td ><input id="31" type="number" min="0" max="70"     onchange="calculate()"></td>
+            <td ><input id="32" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td ><input id="33" type="number" min="0" max="100" ></td>
+        </tr>
+        <tr>
+            <td>CS4</td>
+            <td>Python</td>
+            <td>70</td>
+            <td>30</td>
+            <td>100</td>
+            <td ><input id="41" type="number" min="0" max="70"   onchange="calculate()"></td>
+            <td ><input id="42" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td ><input id="43" type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>CS5</td>
+            <td>Go</td>
+            <td>70</td>
+            <td>30</td>
+            <td>100</td>
+            <td ><input id="51" type="number" min="0" max="70"   onchange="calculate()"></td>
+            <td ><input id="52" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td ><input id="53" type="number" min="0" max="100"   ></td>
+        </tr>
+        <tr>
+            <td>CS6</td>
+            <td>Rust</td>
+            <td>70</td>
+            <td>30</td>
+            <td>100</td>
+            <td ><input id="61" type="number" min="0" max="70"   onchange="calculate()"></td>
+            <td ><input id="62" type="number" min="0" max="30" onchange="calculate()"></td>
+            <td ><input id="63" type="number" min="0" max="100"   ></td>
+        </tr>
+            
+    </table>  
+<br>
+<input onclick="submit()" id="submit-el" type="button" value="submit ">  <br>
+<div id="total"> Total: <input id="tot" type="number"></div> 
+<div id="avg">Average: <input id="average" type="number"></div><br><br>
+    <script src="it.js">
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+fopen():-open new or existing file
+fprintf():-write data into the file
+fscanf():-reads data from the file
+fputc():-writes a charecter into the file
+fgetc():reads a charecter from the file
+fgets(buffer,no of bytes,fp):-gets a string from the file
+fputs(string,fp):-write a string from the file
+fclose():-closes the file
+fseek():- sets the file pointer to given position
+fputw():-writs an integer to file
+fgetw():-reads an integer from file
+ftell():-returns current position
+rewind():-sets the file pointer to the beginning of the file

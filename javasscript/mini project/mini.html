@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTA website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="mini.css">
+</head>
+<body>
+    <div class="one">
+        <div><a href="http://www.education.gov.in/"target=_blank><img src="govt.png" alt="bharat"></a></div>
+        <div class="text">
+            
+                <h1 id="jee">JEE MAIN - 2023</h1>
+                <h3 id="ses">Session 1 </h3>  
+            
+        </div>
+        <div> <img src="nta-logo.webp" alt="nta logo"></div>  
+           
+    </div>
+    <div class="home">
+        <div id="icon"><a  href="https://examinationservices.nic.in/jeemain22/root/Home.aspx?appFormId=101032211" target="_blank"><i class="fa-solid fa-house" style="color: #ffffff;"></i><b id=h1>Home</b></a></div>
+    </div>
+    <div class="body">
+        <div class="right">
+            <p id="p1">Step to apply online</p>
+            <hr width="80%">
+            <p><i class="fa-solid fa-check" style="color: #ffffff;"></i>
+                Apply for Online Registration</p>
+            <p><i class="fa-solid fa-check" style="color: #ffffff;"></i>
+            Fill Online Application Form</p>
+            <p><i class="fa-solid fa-check" style="color: #ffffff;"></i>
+            Pay Examination Fee</p>
+            <hr width="80%">
+            <div class="form">
+                Application Form <select class="tag">
+                    <option value="JEE(Main)2023-Session 1 ">JEE(Main)2023-Session 1 </option>
+                </select>
+                <br>
+                <br>
+                <div><input type="button" onclick="refresh()" class="new" value="New Registration"></div>
+            </div>
+            
+
+        </div>
+        <div class="left">
+            <img  class="title_imgae" src="reg1.png" alt="image" height="40px" width="450px" style="justify-content: center;">
+            
+           
+            <div id="fit">
+                
+            <table class="table">
+                <tr>
+                    <td>Application Form</td><td><input type="text" placeholder="Jee(Main)-2023" class="input"></td>
+                </tr>
+                <tr>
+                    <td>Application No</td><td><input type="text"  class="input"></td>
+                </tr>
+                <tr>
+                    <td>Password</td><td><input onchange="password()" id="pass" type="password"  class="input"></td>
+                </tr>
+                <tr>
+                    <td>Security Pin as shown below <p style="color: red;">(case Sensitive)</p></td><td><input id="pin" type="text"  class="input"></td>
+                </tr>
+                <tr>
+                    <td>Security Pin </td><td>
+                        <img id="capcha" src="c1.png" height="50px" width="80px" style="padding-left: 20px;">
+                        <img onclick="changeimage()" src="logo.jpg" height="40px" width="40px" style="cursor: pointer;" > </td>
+                </tr>
+                <td></td>
+                <!-- <td><form onsubmit="validateCaptcha()">
+                    <div id="captcha">
+                    </div>
+                    <input type="text" placeholder="Captcha" id="cpatchaTextBox"/>
+                    <button type="submit">Submit</button>
+                  </form></td> -->
+                <td ><input id="sin" type="button" value="Sign in"></td>
+
+
+            </table>
+            <hr width="80%" style="color: gold; ">
+            <div style="margin-left: 150px;"><b  style="padding-right: 30px;cursor: pointer;">Forgot password?</b><b style="cursor: pointer;">Forgot Application no?</b></div>
+        </div>
+
+        </div>
+    </div>
+    <script src="mini.js"></script>
+    
+</body>
+</html>

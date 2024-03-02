@@ -1,0 +1,9 @@
+table{
+    border-collapse: collapse;
+}
+body{
+    padding-left: 35%;
+}
+form{
+    border: solid 2px black;
+}
